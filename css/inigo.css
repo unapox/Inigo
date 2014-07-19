@@ -1,0 +1,187 @@
+body > .title {
+	width: 800px;
+	margin: 0 auto;
+	color: #DD4B39;
+	font-family: 'ratio-display',sans-serif;
+    font-size: 38pt;
+	letter-spacing: -0.03em;
+	line-height: 1.1em;
+    padding: 45px 0 0 90px;
+}
+.wrapper {
+	position: relative;
+	min-height: 1000px;
+}
+.stickers {
+	overflow: hidden;
+	height: 750px;
+}
+.hello_sticker {
+	position: absolute;
+	width: 300px;
+	font-family: 'Helveitca Nueue', 'Arial', Sans-Serif;
+	font-weight: 900;
+	color: #fff;
+	background: #e32322;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	box-shadow: 0px 0px 1px rgba(0,0,0,0.3);
+	margin: 5px;
+}
+	.hello_sticker .top {
+		padding: 15px 20px 5px;
+		
+	}
+	.hello_sticker .top .hi {
+		display: inline-block;
+		width: 100%;
+		font-weight: bold;
+		font-size: 30px;
+		letter-spacing: 0.6em;
+		text-align: center;
+	}
+	.hello_sticker .top .hi2 {
+		display: inline-block;
+		width: 100%;
+		margin-top: 5px;
+		margin-bottom: 0;
+		font-size: 18px;
+		text-align: center;
+	}
+	.hello_sticker .middle {
+		background: #fff;
+		height: 100px;
+		margin-bottom: 20px;
+	}
+	
+#h1 { 
+	top: 90px;
+	left: 300px;
+}
+#h2 {
+	top: 253px;
+	left: 473px;
+}
+#h3 {
+	top: 196px;
+	left: 220px;
+}
+#h4 {
+	top: 140px;
+	left: 425px;
+	z-index: -1;
+}
+#h5 {
+	top: 410px;
+	left: 400px;
+	z-index: -1;
+}
+#h6 {
+	top: 358px;
+	left: 294px;
+	z-index: -1;
+}
+#h7 {
+	top: 470px;
+	left: 330px;
+	z-index: -2;
+}
+.inego {
+	z-index: 100;
+	width: 1061px;
+	position: absolute;
+	left: -20px;
+	top: 50px;
+}
+.sixfingers {
+	width: 700px;
+	margin: 15px auto;
+	line-height: 1.5em;
+	font-size: 18px;
+	font-family: 'source-sans-pro';
+}
+	.sixfingers p {
+		margin-bottom: 15px;
+	}
+.game {
+	width: 700px;
+	margin: 20px auto;
+}
+	.game .output {
+		width: 650px;
+		height: 650px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		margin: 0 auto;
+		background: #000;
+		font-family: "Courier New";
+		color: #fff;
+		padding: 10px;
+		border: 1px solid #000;
+		border-radius: 5px;
+	}
+	.game .output .title {
+		margin: 15px 0;
+	}
+	.game .output .objList,
+	.game .output .mobList,
+	.game .output .golist {
+		margin-top: 10px;
+	}
+	.game .output .golist .direction {
+		color: #0ff;
+	}
+	.game .output p {
+		margin-bottom: 15px;
+	}
+	.game .output .rbody p {
+		display: inline-block;
+		padding-bottom: 15px;
+	}
+	.game .output p.in {
+		color: #92bbd2;
+	}
+	.game .output p.dead {
+		color: #AA0000;
+		margin: 15px 0;
+	}
+	.game .output p.exp {
+		margin-bottom: 13px;
+	}
+	.game .input {
+		width: 670px;
+		margin: 10px auto;
+	}
+		.game .input input {
+			width: 563px;
+			font-family: "Courier New";
+			font-size: 1.3em;
+			padding: 5px;
+			border: 1px solid #858585;
+			border-radius: 3px;
+		}
+		.game .input button {
+			background: none repeat scroll 0 0 #5CB85C;
+		    border: 1px solid #4CAE4C;
+		    border-radius: 3px 3px 3px 3px;
+		    color: #FFFFFF;
+		    font-family: 'facitweb';
+		    font-size: 1.25em;
+		    line-height: 1.5em;
+		    margin-left: 5px;
+		    margin-top: 0;
+		    padding: 2px 15px;
+		    -webkit-transition: background 0.3s;
+		    -moz-transition: background 0.3s;
+		    -o-transition: background 0.3s;
+		    -ms-transition: background 0.3s;
+		}
+		.game .input button:hover {
+			cursor: pointer;
+			background: #47A447;
+		}
+	.hljs {
+		border-radius: 5px;
+		padding: 0 10px;
+		overflow-y: scroll;
+	}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inigo</title>
+		<script src="js/jquery.js"></script>
+		<script type="text/javascript" src="https://use.typekit.com/blr6fun.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/layout.css" />
+		<link rel="stylesheet" href="css/modules.css" />
+		<link rel="stylesheet" href="css/custom.css" />
+		<link rel="stylesheet" href="css/inigo.css" />
+		<script>
+			$(document).ready(function(){
+			}); // closes document ready.
+		</script>
+	</head>
+	<body>
+		<div class='wrapper'>
+			<section class='game'>
+				<div class='output'>
+					<div class='title'>Inigo Montoya Simulator 0.0.42</div>
+					<div class='rbody'>
+						<p>
+							Welcome to Inigo Simulator. This short simple game is based
+							on the swordfight scene at the Cliffs of Insanity from the 
+							film, <a href='http://www.imdb.com/title/tt0093779/'>The Princess Bride</a>. It is meant for 
+							illustrative purposes only and is in no way a complete text 
+							adventure game. 
+						</p>
+						<p>
+							If you need assistance at any point, type 'help' for hints. To 
+							show a list of commands, type 'commands'.
+						</p>
+					</div>
+					<div class='controls'>
+						<p>Type 'start' to start the game.</p>  
+					</div>	
+				</div>
+				<div class='input'>
+					<input type='text' id='cmds' placeholder="Commands go here" autoComplete="off" />
+					<button id='doit'>Enter</button>
+				</div>
+			</section>
+		</div>
+		<script src='js/inigo.js'></script>
+	</body>
+</html>
